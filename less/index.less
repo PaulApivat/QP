@@ -5,8 +5,12 @@
     color: black;
     max-width: 880px;
     width: 100%;
-    height: 1530px;
+    height: 1600px;
     margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .header {
@@ -14,6 +18,18 @@
     width: 90%;
     height: 100px;
     margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+        border: 2px solid pink;
+        width: 30%;
+    }
+    .call-to-action {
+        border: 2px solid palegreen;
+        width: 30%;
+    }
 }
 
 .jumbo {
@@ -35,6 +51,14 @@
     width: 90%;
     height: 200px;
     margin: 0 auto;
+
+    display: flex;
+
+    .brand-logo {
+        border: 2px solid dodgerblue;
+        width: 25%;
+        height: 180px;
+    }
 }
 
 .social-proof {
@@ -42,18 +66,50 @@
     width: 90%;
     height: 200px;
     margin: 0 auto;
+
+    display: flex;
+
+    .social-proof-paragraph {
+        border: 2px solid pink;
+        width: 40%;
+        height: 180px;
+    }
 }
 
 .award {
     border: 2px solid orange;
     width: 90%;
-    height: 100px;
+    height: 200px;
     margin: 0 auto;
+
+    display: flex;
+
+    .awards-won {
+        border: 2px solid gold;
+        width: 80%;
+        height: 180px;
+
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .footer {
     border: 2px solid red;
     width: 90%;
-    height: 200px;
+    height: 100px;
     margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    .address {
+        border: 1px solid purple;
+        width: 30%;
+    }
+
+    .social-icons {
+        border: 1px solid aqua;
+        width: 30%;
+    }
 }
