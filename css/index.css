@@ -32,11 +32,19 @@
   height: 400px;
   margin: 0 auto;
 }
+.jumbo .sample-jumbo {
+  width: 80%;
+  height: 300px;
+}
 .carousel {
   border: 2px solid red;
   width: 90%;
   height: 300px;
   margin: 0 auto;
+}
+.carousel .sample-logo {
+  width: 80%;
+  height: 200px;
 }
 .brand {
   border: 2px solid blue;
