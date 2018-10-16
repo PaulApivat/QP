@@ -147,6 +147,28 @@ table {
   flex-direction: column;
   justify-content: space-around;
 }
+.container .header {
+  background-color: white;
+}
+.container .header .logo {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: goldenrod;
+  text-align: center;
+  padding-top: 15px;
+}
+.container .header .logo img {
+  display: none;
+  height: 50px;
+  width: 25%;
+}
+.container .header .call-to-action {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15px;
+  color: goldenrod;
+}
 .header {
   border: 2px solid red;
   width: 90%;
