@@ -180,33 +180,33 @@ table {
   width: 30%;
 }
 .jumbo {
-  border: 2px solid orange;
   width: 90%;
   height: 400px;
   margin: 0 auto;
   position: relative;
+  box-shadow: 5px 5px 5px lightgrey;
 }
 .jumbo img {
   width: 100%;
   height: 400px;
-  filter: sepia(60%);
+  filter: grayscale(100%);
 }
 .jumbo .jumbo-text {
   position: absolute;
   bottom: 8px;
   left: 10px;
-  height: 275px;
+  height: 390px;
   width: 40%;
-  background-color: rgba(105, 50, 0, 0.3);
+  background-color: rgba(105, 50, 0, 0.5);
 }
 .jumbo .jumbo-text h1 {
   font-size: 5rem;
-  color: goldenrod;
+  color: white;
   font-weight: bold;
 }
 .jumbo .jumbo-text h2 {
   font-size: 4rem;
-  color: goldenrod;
+  color: white;
 }
 .carousel {
   border: 2px solid red;
@@ -219,16 +219,24 @@ table {
   height: 200px;
 }
 .brand {
-  border: 2px solid blue;
+  background-color: white;
   width: 90%;
   height: 200px;
   margin: 0 auto;
+  box-shadow: 5px 5px 5px lightgrey;
   display: flex;
 }
 .brand .brand-logo {
-  border: 2px solid dodgerblue;
   width: 25%;
   height: 180px;
+}
+.brand .brand-logo img {
+  height: 150px;
+  width: 90%;
+  padding-left: 10px;
+  padding-top: 10px;
+  opacity: 0.5;
+  filter: grayscale(80%);
 }
 .social-proof {
   border: 2px solid red;
