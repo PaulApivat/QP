@@ -314,7 +314,7 @@ table {
 .footer .social-icons img {
   width: 25%;
   height: 50px;
-  filter: grayscale(100%);
+  filter: grayscale(80%);
 }
 .carouselbox {
   font-size: 2rem;
